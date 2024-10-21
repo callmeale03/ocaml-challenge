@@ -4,4 +4,4 @@ let parrot_trouble (talk : bool) (time : int) =
   match talk with
   | true -> if time < 7 || time > 20 then Some true else Some false
   | false -> Some false
-  ;;
+;;
