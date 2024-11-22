@@ -20,4 +20,3 @@ assert (sumrange 1 3 = 6);;
 assert (sumrange 3 2 = 0);;
 
 (* Come lavora il fold_left: a + (a + 1) + (a + 2) + ... + b *)
-(* Codice da pushare! *)
