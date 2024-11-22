@@ -18,4 +18,3 @@ assert(has_one 220 = false);;
 assert(has_one 911 = true);;
 assert(has_one 451 = true);;
 assert(try has_one (-1) |> fun _ -> false with _ -> true);;
-(* Codice da pushare! *)
